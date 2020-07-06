@@ -39,15 +39,15 @@ h1 {
 }
 
 .kick-pad.active {
-	background: #d81bf5;
+	background: #b008ca;
 }
 
 .snare-pad.active {
-	background: #7de47f;
+	background: #5ed660;
 }
 
 .hihat-pad.active {
-	background: #ec1923;
+	background: #a0030a;
 }
 
 .kick-track,
@@ -110,4 +110,13 @@ select {
 	margin-left: 1rem;
 	font-size: 1rem;
 	width: 30%;
+}
+
+@keyframes playTrack {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
 }
